@@ -5,7 +5,7 @@
 body {
   font-family: var(--main-font);
   background-color: #272044;
-  margin: 50px;;
+  margin: 50px;
 }
 
 header h1 {
@@ -54,7 +54,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 200px 0px
+  padding: 200px 0px;
 }
 
 .container {
@@ -226,6 +226,9 @@ main p {
   margin: 30px;
 }
 @media (max-width: 960px) {
+  body {
+    margin: 15px;
+  }
   header {
     padding: 60px 0;
   }
@@ -256,5 +259,9 @@ main p {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .instagram-embed {
+    margin: 30px;
   }
 }
