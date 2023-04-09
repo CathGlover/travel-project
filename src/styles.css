@@ -220,6 +220,10 @@ main p {
 .secondary-section {
   background: #f8f8f8;
 }
+
+.instagram-embed {
+  margin: 30px;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
