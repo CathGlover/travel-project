@@ -222,8 +222,9 @@ main p {
   background: #f8f8f8;
 }
 
-.instagram-embed {
-  margin: 30px;
+.instagram-embed.grid {
+  grid-gap: 0;
+  text-align: center;
 }
 @media (max-width: 960px) {
   body {
