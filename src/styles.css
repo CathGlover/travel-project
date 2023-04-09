@@ -1,8 +1,80 @@
-h1 {
-  color: red;
-  font-family: "Poppins", sans-serif;
+:root {
+  --main-font: "Poppins", sans-serif;
 }
-h2 {
-  color: blue;
-  font-family: "Poppins", sans-serif;
+
+body {
+  font-family: var(--main-font);
+  background-color: #272044;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto;
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  display: inline-block;
+  margin: 20px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/venice-by-gondola.jpg");
+  background-color: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
 }
